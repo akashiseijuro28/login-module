@@ -1,0 +1,108 @@
+html{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  color: rgb(15, 15, 15);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+.success {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+.error {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+.container {
+  border-width: thin;
+  margin: 0% auto;
+  width: 30%;  
+  display: block;
+  background-color: azure;
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding: 20px 20px;
+}
+.name, .location, .pass{
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+      column-count: 2;
+}
+
+h3 {
+  text-align: center  ;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+label {
+  display: inline-block;
+  width: 25%;
+  font-size: 14px;
+  white-space: nowrap;
+  margin-top: 20px;
+
+}
+
+input[type=text],
+input[type=password], input[type=email]{
+  background: transparent;
+  border: rgb(0, 0, 0) 50px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(53, 53, 53);
+  color: rgb(7, 7, 7);
+  width:  95% ;
+  height: 30px;
+
+}
+input[type=radio]{
+  margin-left: 35px;
+  color: black;
+}
+
+input:focus{
+  outline: none;
+  color: black;
+}
+button:hover{
+  background-color: aliceblue;
+  color: black;
+  border:1px solid black;
+}
+
+
+button {
+  border-radius: 10px;
+  background-color: #315894;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 2px;
+  cursor: pointer;
+}
+
+.buttons{
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(25%, 20%);
+}
+.bottom {
+  margin: 10px 20px;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+}
+#signup,
+#fpsw {
+  display: block;
+}
